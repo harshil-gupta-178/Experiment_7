@@ -90,32 +90,27 @@ function App() {
           <li
             className={activeOption === 'All Notes' ? 'active' : ''}
             onClick={() => setActiveOption('All Notes')}
-          >
-             All Notes ({notes.length})
+          >All Notes ({notes.length})
           </li>
           <li
             className={activeOption === 'Study' ? 'active' : ''}
             onClick={() => setActiveOption('Study')}
-          >
-             Study Notes
+          >Study Notes
           </li>
           <li
             className={activeOption === 'Work' ? 'active' : ''}
             onClick={() => setActiveOption('Work')}
-          >
-             Work
+          > Work
           </li>
           <li
             className={activeOption === 'Favorites' ? 'active' : ''}
             onClick={() => setActiveOption('Favorites')}
-          >
-             Favorites
+          ></li> Favorites
           </li>
           <li
             className={activeOption === 'Trash' ? 'active' : ''}
             onClick={() => setActiveOption('Trash')}
-          >
-             Trash
+          >Trash
           </li>
         </ul>
       </div>
